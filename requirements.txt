@@ -1,0 +1,8 @@
+pandas==2.3.1
+pandas_gbq==0.29.2
+prefect==3.4.10
+prefect_gcp==0.6.9
+prefect_github==0.3.1
+protobuf==6.31.1
+python-dotenv==1.1.1
+Requests==2.32.4
