@@ -59,7 +59,7 @@ def get_econNews_last24hours() -> pd.DataFrame:
     BASE_URL = "https://api.marketaux.com/v1/news/all"
     API_TOKEN = os.getenv("API_TOKEN")
 
-    published_after_date = (datetime.utcnow() - timedelta(days=30)).strftime("%Y-%m-%d")
+    published_after_date = (datetime.utcnow() - timedelta(days=1)).strftime("%Y-%m-%d")
 
     params = {
     "language": "en,id",
