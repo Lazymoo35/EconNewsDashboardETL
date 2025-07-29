@@ -71,7 +71,7 @@ def get_econNews_last24hours() -> pd.DataFrame:
     all_articles = []
 
     try:
-        for page in range(1, 51):
+        for page in range(1, 101):
             params["page"] = page
             response = requests.get(BASE_URL, params=params)
     
